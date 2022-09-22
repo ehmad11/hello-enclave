@@ -1,4 +1,2 @@
-#!/bin/bash
-node /app/server.js
-echo "server.js stopped"
-sleep 10
+#! /bin/bash
+cd "/app/" && npm start
