@@ -10,4 +10,6 @@ WORKDIR /app
 
 COPY . .
 
+RUN chmod +x /app/run.sh
+
 CMD [ "/app/run.sh" ]
